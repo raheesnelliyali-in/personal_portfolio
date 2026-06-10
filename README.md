@@ -1,2 +1,33 @@
-# personal_portfolio
-A modern and responsive personal portfolio website developed using React and Vite. The portfolio highlights my technical skills, Python FastAPI internship experience, academic projects, and web development work. Designed with a clean user interface, smooth animations, and mobile responsiveness to create a professional online presence.
+# Personal Portfolio Website
+
+This is my personal portfolio website built using React and Vite.
+
+## Features
+- Responsive Design
+- Modern UI/UX
+- Smooth Scrolling Navigation
+- Skills Showcase
+- Internship Experience Section
+- Projects Portfolio
+- Contact Information
+- GitHub & LinkedIn Integration
+
+## Technologies Used
+- React.js
+- Vite
+- JavaScript
+- HTML5
+- CSS3
+- Tailwind CSS
+
+## Projects Included
+- Expense Tracker (Python)
+- Contact Book System
+- Task Validator System
+- E-Commerce Clothing Website
+- FastAPI CRUD API
+
+## Author
+Muhammed Rahees N
+
+Backend Developer Intern | BCA Student | Python & FastAPI Enthusiast
