@@ -43,7 +43,7 @@ export const Hero = () => {
               <a href="https://github.com/raheesnelliyali-in" target="_blank" rel="noopener noreferrer" className="icon-btn" aria-label="GitHub">
                 <Github size={22} />
               </a>
-              <a href="https://www.linkedin.com/in/muhammed-rahees-n-68065a317/" target="_blank" rel="noopener noreferrer" className="icon-btn" aria-label="LinkedIn">
+              <a href="www.linkedin.com/in/muhammedraheesn" target="_blank" rel="noopener noreferrer" className="icon-btn" aria-label="LinkedIn">
                 <Linkedin size={22} />
               </a>
               <a href="mailto:raheesnelliyali01@gmail.com" className="icon-btn" aria-label="Email">
