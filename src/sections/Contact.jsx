@@ -43,7 +43,7 @@ Recruiters, mentors, and collaborators can reach me through these channels. </p>
       </a>
 
 <a
-  href="www.linkedin.com/in/muhammedraheesn/"
+  href="https://www.linkedin.com/in/muhammedraheesn/"
   target="_blank"
   rel="noopener noreferrer"
   className="clean-card text-center"
