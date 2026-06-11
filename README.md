@@ -1,33 +1,45 @@
-# Personal Portfolio Website
+# Muhammed Rahees N - Portfolio
 
-This is my personal portfolio website built using React and Vite.
+A professional personal portfolio built with React, Vite, and Tailwind CSS.
 
-## Features
-- Responsive Design
-- Modern UI/UX
-- Smooth Scrolling Navigation
-- Skills Showcase
-- Internship Experience Section
-- Projects Portfolio
-- Contact Information
-- GitHub & LinkedIn Integration
+## Sections Included
 
-## Technologies Used
-- React.js
+- Hero profile section
+- About me
+- Skills grouped by category
+- Internship experience
+- Project showcase
+- GitHub contribution heatmap
+- Education
+- Learning timeline
+- Certificates / learning proof
+- Achievements
+- Resume CTA
+- Contact links
+
+## Tech Stack
+
+- React
 - Vite
-- JavaScript
-- HTML5
-- CSS3
 - Tailwind CSS
+- JavaScript
+- Lucide React Icons
 
-## Projects Included
-- Expense Tracker (Python)
-- Contact Book System
-- Task Validator System
-- E-Commerce Clothing Website
-- FastAPI CRUD API
+## Run Locally
 
-## Author
-Muhammed Rahees N
+```bash
+npm install
+npm run dev
+```
 
-Backend Developer Intern | BCA Student | Python & FastAPI Enthusiast
+## Build
+
+```bash
+npm run build
+```
+
+## Customize
+
+- Replace `public/profile-photo.jpg` with your photo.
+- Add your resume as `public/resume.pdf`.
+- Update project links inside `src/sections/Projects.jsx`.
