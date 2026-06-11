@@ -1,6 +1,5 @@
-import { Menu, X } from "lucide-react";
+import { Menu, X, Moon, Sun } from "lucide-react";
 import { useState } from "react";
-import { Moon, Sun } from "lucide-react";
 
 const links = [
   { name: "Home", path: "#home" },
@@ -30,46 +29,41 @@ export const Navbar = ({ theme, setTheme }) => {
           ))}
         </div>
 
-       <div className="hidden md:flex items-center gap-3">
+        <div className="flex items-center gap-2">
+          <button
+            onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+            className="icon-btn"
+            aria-label="Toggle Theme"
+          >
+            {theme === "dark" ? <Sun size={20} /> : <Moon size={20} />}
+          </button>
 
-  <button
-    onClick={() =>
-      setTheme(theme === "dark" ? "light" : "dark")
-    }
-    className="icon-btn"
-    aria-label="Toggle Theme"
-  >
-    {theme === "dark" ? (
-      <Sun size={20} />
-    ) : (
-      <Moon size={20} />
-    )}
-  </button>
+          <a href="#contact" className="primary-btn text-xs md:text-sm px-3 md:px-5 py-2">
+            Hire / Connect
+          </a>
 
-  <a
-    href="#contact"
-    className="primary-btn text-sm"
-  >
-    Hire / Connect
-  </a>
-
-</div>
-
-        <button className="lg:hidden icon-btn" onClick={() => setOpen(!open)} aria-label="Toggle menu">
-          {open ? <X size={22} /> : <Menu size={22} />}
-        </button>
+          <button
+            className="lg:hidden icon-btn"
+            onClick={() => setOpen(!open)}
+            aria-label="Toggle menu"
+          >
+            {open ? <X size={22} /> : <Menu size={22} />}
+          </button>
+        </div>
       </nav>
 
       {open && (
         <div className="lg:hidden bg-background border-t border-border px-6 py-5 space-y-4">
           {links.map((link) => (
-            <a key={link.name} href={link.path} onClick={() => setOpen(false)} className="block text-muted-foreground hover:text-primary">
+            <a
+              key={link.name}
+              href={link.path}
+              onClick={() => setOpen(false)}
+              className="block text-muted-foreground hover:text-primary"
+            >
               {link.name}
             </a>
           ))}
-          <a href="#contact" onClick={() => setOpen(false)} className="inline-flex primary-btn">
-            Contact Me
-          </a>
         </div>
       )}
     </header>

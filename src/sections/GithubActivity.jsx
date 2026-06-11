@@ -18,7 +18,7 @@ export const GithubActivity = () => {
           </div>
 
           <div className="bg-white rounded-2xl p-4 overflow-x-auto">
-            <img src="https://ghchart.rshah.org/800020/raheesnelliyali-in" alt="Muhammed Rahees N GitHub contribution heatmap" className="min-w-[760px] w-full" />
+            <img src="https://ghchart.rshah.org/2ea043/raheesnelliyali-in" alt="Muhammed Rahees N GitHub contribution heatmap" className="min-w-[760px] w-full" />
           </div>
 
           <a href="https://github.com/raheesnelliyali-in" target="_blank" rel="noopener noreferrer" className="primary-btn mt-8">
