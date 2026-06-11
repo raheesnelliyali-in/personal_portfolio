@@ -74,7 +74,7 @@
 
 
 
-@theme {
+/* @theme {
   --color-background: #090507;
   --color-card: #140b10;
   --color-primary: #e11d48;
@@ -100,7 +100,7 @@
   --color-surface: #fff1f2;
   --color-highlight: #fb7185;
   --color-primary-foreground: #ffffff;
-}
+} */
 @layer base {
   html { scroll-behavior: smooth; }
   body {
