@@ -8,17 +8,16 @@ Recruiters, mentors, and collaborators can reach me through these channels. </p>
     <div className="grid md:grid-cols-2 gap-6 mt-10 max-w-5xl mx-auto">
 
  <a
-  onClick={() => {
-    navigator.clipboard.writeText("raheesnelliyali01@gmail.com");
-    alert("Email copied!");
-  }}
-  className="clean-card text-center cursor-pointer"
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=raheesnelliyali01@gmail.com"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="clean-card text-center"
 >
   <Mail className="text-primary mx-auto mb-4" size={34} />
   <h3 className="text-xl font-semibold">Email</h3>
   <p className="text-muted-foreground mt-2">
-    Click to Copy Email
-  </p>
+  raheesnelliyali01@gmail.com
+</p>
 </a>
 
          <div className="clean-card text-center">

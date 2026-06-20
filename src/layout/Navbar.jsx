@@ -42,11 +42,7 @@ export const Navbar = ({ theme, setTheme }) => {
             Hire / Connect
           </a>
 
-          <button
-            className="lg:hidden icon-btn"
-            onClick={() => setOpen(!open)}
-            aria-label="Toggle menu"
-          >
+          <button className="lg:hidden icon-btn" onClick={() => setOpen(!open)} aria-label="Toggle menu">
             {open ? <X size={22} /> : <Menu size={22} />}
           </button>
         </div>
@@ -55,12 +51,7 @@ export const Navbar = ({ theme, setTheme }) => {
       {open && (
         <div className="lg:hidden bg-background border-t border-border px-6 py-5 space-y-4">
           {links.map((link) => (
-            <a
-              key={link.name}
-              href={link.path}
-              onClick={() => setOpen(false)}
-              className="block text-muted-foreground hover:text-primary"
-            >
+            <a key={link.name} href={link.path} onClick={() => setOpen(false)} className="block text-muted-foreground hover:text-primary">
               {link.name}
             </a>
           ))}

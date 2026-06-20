@@ -13,7 +13,7 @@ export const GithubActivity = () => {
         <div className="clean-card mt-14 max-w-5xl mx-auto text-center overflow-hidden">
           <div className="grid md:grid-cols-3 gap-4 mb-8">
             <div className="rounded-2xl bg-surface border border-border p-5"><Github className="text-primary mx-auto mb-2" /><p className="font-semibold">GitHub Profile</p><p className="text-muted-foreground text-sm">raheesnelliyali-in</p></div>
-            <div className="rounded-2xl bg-surface border border-border p-5"><GitBranch className="text-primary mx-auto mb-2" /><p className="font-semibold">Projects</p><p className="text-muted-foreground text-sm">Python • FastAPI • React</p></div>
+            <div className="rounded-2xl bg-surface border border-border p-5"><GitBranch className="text-primary mx-auto mb-2" /><p className="font-semibold">Projects</p><p className="text-muted-foreground text-sm">Python • FastAPI • React • Analytics</p></div>
             <div className="rounded-2xl bg-surface border border-border p-5"><Star className="text-primary mx-auto mb-2" /><p className="font-semibold">Focus</p><p className="text-muted-foreground text-sm">Consistent improvement</p></div>
           </div>
 

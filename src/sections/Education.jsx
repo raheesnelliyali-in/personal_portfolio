@@ -14,7 +14,9 @@ export const Education = () => {
             <div>
               <h3 className="text-2xl font-bold">Bachelor of Computer Applications</h3>
               <p className="text-primary font-semibold mt-1">University of Calicut</p>
-              <p className="text-muted-foreground mt-4 leading-relaxed">Focused on programming fundamentals, web development, database concepts, software development practices, and practical project building.</p>
+              <p className="text-muted-foreground mt-4 leading-relaxed">
+                Focused on programming fundamentals, web development, database concepts, software development practices, data handling, and practical project building.
+              </p>
             </div>
           </div>
         </div>

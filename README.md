@@ -1,21 +1,24 @@
-# Muhammed Rahees N - Portfolio
+# Muhammed Rahees N - Personal Portfolio
 
-A professional personal portfolio built with React, Vite, and Tailwind CSS.
+A modern personal portfolio website showcasing my software development projects, completed Python FastAPI internship, data analytics interest, and practical business operations exposure.
 
-## Sections Included
+## Live Demo
 
-- Hero profile section
-- About me
-- Skills grouped by category
-- Internship experience
-- Project showcase
-- GitHub contribution heatmap
-- Education
-- Learning timeline
-- Certificates / learning proof
-- Achievements
-- Resume CTA
-- Contact links
+https://raheesportfolio.vercel.app/
+
+## About
+
+I am a BCA student from Kerala with interests in software development, data analytics, Excel, Power BI, and business-focused problem solving. I recently completed a Python FastAPI internship at Bridgeon and built practical projects including a Task Management System, Personal Portfolio, and Veloura E-Commerce Website.
+
+## Features
+
+- Responsive portfolio design
+- Dark and light mode support
+- Project showcase section
+- GitHub activity integration
+- Experience section with Bridgeon internship and RealBuild Hub exposure
+- Skills grouped across development, analytics, tools, and business-tech areas
+- Professional contact section
 
 ## Tech Stack
 
@@ -23,23 +26,19 @@ A professional personal portfolio built with React, Vite, and Tailwind CSS.
 - Vite
 - Tailwind CSS
 - JavaScript
-- Lucide React Icons
+- Lucide React
+- Vercel
 
-## Run Locally
+## Featured Projects
 
-```bash
-npm install
-npm run dev
-```
+- Task Management System
+- Veloura Clothing E-Commerce Website
+- Personal Portfolio Website
+- FastAPI Task CRUD API
+- Expense Tracker
 
-## Build
+## Contact
 
-```bash
-npm run build
-```
-
-## Customize
-
-- Replace `public/profile-photo.jpg` with your photo.
-- Add your resume as `public/resume.pdf`.
-- Update project links inside `src/sections/Projects.jsx`.
+- Email: raheesnelliyali01@gmail.com
+- LinkedIn: https://www.linkedin.com/in/muhammedraheesn/
+- GitHub: https://github.com/raheesnelliyali-in

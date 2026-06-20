@@ -1,10 +1,10 @@
 import { Trophy, Code, Database, Globe } from "lucide-react";
 
 const achievements = [
-  { icon: Code, title: "Built Practical Python Projects", text: "Expense tracker, contact book, task validator, and CRUD simulator." },
-  { icon: Database, title: "Learned Database Persistence", text: "Moved from in-memory storage to SQLite-backed applications." },
-  { icon: Globe, title: "Created Web Projects", text: "Developed portfolio and e-commerce website experience using modern web tools." },
-  { icon: Trophy, title: "Consistent Internship Learning", text: "Daily backend learning through FastAPI, SQL, schemas, routers, and API testing." },
+  { icon: Trophy, title: "Completed FastAPI Internship", text: "Completed Python FastAPI internship at Bridgeon with hands-on backend and API development practice." },
+  { icon: Code, title: "Built Task Management System", text: "Developed a practical project with task CRUD, dashboard metrics, status management, database persistence, and authentication concepts." },
+  { icon: Globe, title: "Created Web Projects", text: "Built and deployed a personal portfolio and e-commerce website using modern web development tools." },
+  { icon: Database, title: "Business & Data Exposure", text: "Supported RealBuild Hub with Excel, invoice-related work, documentation, data organization, and business operations." },
 ];
 
 export const Achievements = () => {
@@ -12,7 +12,7 @@ export const Achievements = () => {
     <section id="achievements" className="section-space">
       <div className="container mx-auto px-6">
         <div className="section-header">
-          <span className="section-label">Achievements</span>
+          <span className="section-label">Highlights</span>
           <h2 className="section-title">What I Have <span className="text-primary">Built So Far</span></h2>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-14">

@@ -1,9 +1,9 @@
 import { Award } from "lucide-react";
 
 const certificates = [
-  { title: "Python FastAPI Internship", status: "In Progress", text: "Bridgeon Solutions internship focused on backend development and API building." },
-  { title: "Python Basics Practice", status: "Learning", text: "Hands-on programs covering functions, OOP, file handling, and validation." },
-  { title: "Project Portfolio", status: "Completed", text: "Personal portfolio website showcasing skills, projects, experience, and GitHub activity." },
+  { title: "Python FastAPI Internship", status: "Completed", text: "Completed Bridgeon internship focused on Python, FastAPI, REST APIs, SQLite, and practical project development." },
+  { title: "Task Management System", status: "Completed", text: "Completed internship project demonstrating CRUD operations, dashboard metrics, database storage, and frontend-backend integration." },
+  { title: "Project Portfolio", status: "Completed", text: "Personal portfolio website showcasing skills, projects, experience, GitHub activity, and professional contact links." },
 ];
 
 export const Certificates = () => {
@@ -11,9 +11,9 @@ export const Certificates = () => {
     <section id="certificates" className="section-space">
       <div className="container mx-auto px-6">
         <div className="section-header">
-          <span className="section-label">Certificates</span>
-          <h2 className="section-title">Certifications & <span className="text-primary">Learning Proof</span></h2>
-          <p className="section-description mt-5">Replace these with your certificate links when you receive them.</p>
+          <span className="section-label">Learning Proof</span>
+          <h2 className="section-title">Completed Work & <span className="text-primary">Learning Proof</span></h2>
+          <p className="section-description mt-5">A summary of completed learning milestones and practical project outcomes.</p>
         </div>
         <div className="grid md:grid-cols-3 gap-6 mt-14">
           {certificates.map((cert) => (
